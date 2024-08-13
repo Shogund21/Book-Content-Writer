@@ -1,0 +1,59 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+}
+
+#app {
+    display: flex;
+    height: 100vh;
+}
+
+#toolbar {
+    padding: 10px;
+    background-color: #f3f3f3;
+}
+
+#editor-container {
+    flex-grow: 1;
+    height: 100%;
+    overflow-y: auto;
+}
+
+#editor {
+    height: 100%;
+}
+
+#sidebar {
+    width: 300px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+#content-generation {
+    padding: 20px;
+    background-color: #eaeaea;
+}
+
+#prompt-input {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+#progress-bar {
+    height: 20px;
+    background-color: #ddd;
+    margin-top: 10px;
+}
+
+#progress-bar::after {
+    content: '';
+    display: block;
+    height: 100%;
+    background-color: #4CAF50;
+    width: 0%;
+    transition: width 0.5s ease-in-out;
+}
