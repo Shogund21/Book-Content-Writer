@@ -1,12 +1,12 @@
 {
-  "name": "self-help-manuscript-editor",
-  "version": "1.0.0",
+  "name": "self-help-manuscript-editor-v2",
+  "version": "2.0.0",
   "description": "An Electron-based application for creating and editing self-help book manuscripts with AI assistance",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
-  "author": "Your Name",
+  "author": "Shogun",
   "license": "MIT",
   "dependencies": {
     "axios": "^1.7.3",
